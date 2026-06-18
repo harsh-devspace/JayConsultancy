@@ -26,7 +26,7 @@ const Home = () => {
     {
       icon: healthInsurance,
       title: 'Health Insurance',
-      description: 'Medical emergencies can happen anytime. Health insurance protects you from rising healthcare expenses.',
+      description: 'Health insurance protects you from rising healthcare expenses.',
       features: ['Cashless Hospitalization', 'Financial Protection', 'Family Coverage']
     },
     {

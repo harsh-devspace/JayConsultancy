@@ -18,27 +18,14 @@
   --text: #475569;
 }
 
-:root {
-  --heading: #0F172A;
-
-  --primary-text: #475569;
-
-  --secondary-text: #64748B;
-
-  --blue: #2563EB;
-
-  --gold: #D4AF37;
-
-  --white: #FFFFFF;
-
-  --footer-text: #CBD5E1;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* max-width: 1280px;
-  margin: auto;
-  padding: 0 24px; */
+  background-color: #FFFFFF;
+}
+
+html, body {
+  width: 100%;
+  height: 100px;
 }

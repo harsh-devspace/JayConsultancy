@@ -10,7 +10,7 @@ const Hero = () => {
                     <h1>Secure Your Future with<br /> Expert <span className='insurance-text' style={{ color: '#0d2d72' }}>Insurance &<br /></span> <span className='investment-text' style={{ color: '#D4AF37' }}>Investment Guidance</span></h1>
                 </div>
                 <div className='subheading'>
-                    <p>Jay Consultancy helps individuals and families protect their future through insurance solutions and smart investment planning. Get expert advice on Life Insurance, Health Insurance, Motor Insurance, Travel Insurance, Term Insurance, SIPs, and Mutual Funds.</p>
+                    <p>Jay Consultancy helps individuals and families protect their future through insurance solutions and smart investment planning.</p>
                 </div>
                 <div className='hero-buttons'>
                     <button className='btn consultation'>Get Free Consultation</button>
