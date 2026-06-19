@@ -33,11 +33,11 @@ const Footer = () => {
                     <h5>Our Services</h5>
                     <ul className='services-list'>
                         <li><span><img className='icons' src={LifeInsurance} alt="LifeInsurance" /></span>Life Insurance</li>
-                        <li><span><img className='icons'src={HealthInsurance} alt="HealthInsurance" /></span>Health Insurance</li>
-                        <li><span><img className='icons'src={TermsInsurance} alt="TermsInsurance" /></span>Terms Insurance</li>
-                        <li><span><img className='icons'src={MotorInsurance} alt="MotorInsurance" /></span>Motor Insurance</li>
-                        <li><span><img className='icons'src={TravelInsurance} alt="TravelInsurance" /></span>Travel Insurance</li>
-                        <li><span><img className='icons'src={MutualFunds} alt="MutualFunds" /></span>SIP & Mutual Funds</li>
+                        <li><span><img className='icons' src={HealthInsurance} alt="HealthInsurance" /></span>Health Insurance</li>
+                        <li><span><img className='icons' src={TermsInsurance} alt="TermsInsurance" /></span>Terms Insurance</li>
+                        <li><span><img className='icons' src={MotorInsurance} alt="MotorInsurance" /></span>Motor Insurance</li>
+                        <li><span><img className='icons' src={TravelInsurance} alt="TravelInsurance" /></span>Travel Insurance</li>
+                        <li><span><img className='icons' src={MutualFunds} alt="MutualFunds" /></span>SIP & Mutual Funds</li>
                     </ul>
                 </div>
                 <div className='contact-info'>
@@ -53,7 +53,6 @@ const Footer = () => {
                 <p>©2026 <span><Link className='link' to='/'>Jay Consultancy</Link></span>. All Right Reserved.</p>
                 <div className='policy'>
                     <Link className='link' to='/privatepolicy'>Private Policy</Link>
-                    {/* <Link></Link> */}
                 </div>
             </div>
         </div>

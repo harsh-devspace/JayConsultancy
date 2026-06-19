@@ -23,7 +23,7 @@ function App() {
           <Route path='/privacypolicy' element={<PrivatePolicy />} />
         </Routes>
       </div> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
