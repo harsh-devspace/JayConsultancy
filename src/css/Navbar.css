@@ -1,11 +1,14 @@
 .navbar {
-    width: 100vw;
     display: flex;
     color: #ffffff;
-    padding: 20px 30px;
+    padding: 20px 0px;
     align-items: center;
     justify-content: space-between;
     position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
 }
 
 .logo {
@@ -38,6 +41,7 @@
     font-size: 15px;
     padding: 2px 0;
     font-family: "Inter", sans-serif;
+    font-weight: 500;
     border-bottom: 1px solid #D4AF37;
 }
 
@@ -93,10 +97,10 @@
 }
 
 
-@media (max-width: 1275px) {
+@media (max-width: 1300px) {
     .navbar {
         padding: 17px 25px;
-
+        width: 100%;
     }
 
     .logo img {
@@ -157,23 +161,18 @@
 }
 
 @media (max-width: 992px) and (min-width: 580px) {
-    .navbar {
-        padding: 17px 25px;
-
-    }
-
     .logo img {
-        width: 140px;
-        height: 100px;
+        width: 16vw;
+        height: 12vw;
     }
 
     .logo-texts h1 {
-        font-size: 30px;
+        font-size: 3.5vw;
     }
 
     .logo-texts h4 {
         padding: 2px 0;
-        font-size: 15px;
+        font-size: 1.8vw;
     }
 
     .nav-links {
@@ -217,7 +216,7 @@
 
     .nav-links.active .link {
         width: 100%;
-        font-size: 25px;
+        font-size: 2.5vw;
         border-bottom: 1px solid #475569;
     }
 

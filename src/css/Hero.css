@@ -1,0 +1,130 @@
+.hero-section {
+    font-family: "Poppins", sans-serif;
+    height: 36vw;
+    background-image: url('/src/assets/hero-img.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: bottom center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-main-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3.8vw;
+}
+
+.heading h1 {
+    font-size: 3.5vw;
+}
+
+.subheading p {
+    font-size: 1.2vw;
+    width: 30vw;
+}
+
+.hero-buttons {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 2vw;
+}
+
+.hero-btn {
+    cursor: pointer;
+    padding: 0.6vw 1.7vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    transition: all 0.25s ease-in-out;
+    font-size: 1vw;
+    border-radius: 5px;
+}
+
+.hero-btn.consultation {
+    background-color: #0d2d72;
+    color: #ffffff;
+    transition: all 0.25s ease-in-out;
+}
+
+.hero-btn.consultation:hover {
+    background-color: transparent;
+    color: #0d2d72;
+    outline: 1px solid #0d2d72;
+}
+
+.hero-btn.whatsapp-now {
+    background-color: #0dab47;
+    color: #ffffff;
+    transition: all 0.25s ease-in-out;
+}
+
+.hero-btn.whatsapp-now:hover {
+    background-color: transparent;
+    color: #0dab47;
+    outline: 1px solid #0dab47;
+}
+
+.hero-btn.call-now {
+    background-color: transparent;
+    color: #0d2d72;
+    border: 1px solid #0d2d72;
+    transition: all 0.25s ease-in-out;
+}
+
+.hero-btn.call-now:hover {
+    background-color: #0d2d72;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+    .hero-section {
+        height: 110vw;
+        background-image: linear-gradient(180deg,
+                rgba(255, 255, 255, 0.95) 0%,
+                rgba(255, 255, 255, 0.75) 35%,
+                rgba(255, 255, 255, 0.20) 70%,
+                rgba(255, 255, 255, 0) 100%), url('/src/assets/hero-img.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: right top;
+        flex-direction: column;
+    }
+
+    .hero-main-content {
+        margin: 4vw auto;
+        gap: 5vw;
+    }
+
+    .heading h1 {
+        font-size: 7vw;
+    }
+
+    .subheading p {
+        font-size: 3vw;
+        width: 70%;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 4vw;
+        margin: 4vw auto;
+    }
+
+    .hero-btn {
+        font-size: 3vw;
+        padding: 2vw 2vw;
+    }
+}
+
+/* @media (max-width: 424px) and (min-width: 375px) {
+
+} */

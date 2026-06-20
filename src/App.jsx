@@ -13,16 +13,16 @@ function App() {
   return (
     <div className='container'>
       <Navbar />
-      {/* <div className='main-content'>
+      <div className='main-content'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
+          {/* <Route path='/about' element={<About />} />
           <Route path='/services' element={<Services />} />
           <Route path='/investments' element={<Investments />} />
           <Route path='/contact' element={<Contact />} />
-          <Route path='/privacypolicy' element={<PrivatePolicy />} />
+          <Route path='/privacypolicy' element={<PrivatePolicy />} /> */}
         </Routes>
-      </div> */}
+      </div>
       <Footer />
     </div>
   )
